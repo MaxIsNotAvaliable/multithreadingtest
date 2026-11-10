@@ -7,7 +7,7 @@
 
 constexpr benchmark::IterationCount benchmark_iterations{
 #ifdef NDEBUG
-  1'024 * 128
+  1'024 * 128 
 #else
   1'024
 #endif
